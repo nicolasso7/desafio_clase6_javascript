@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#grillaGeneral{
+    display: grid;
+    height: 1000px;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 40% 40% 10%;
+    grid-template-areas: "header"
+                        "portada"
+                        "principal"
+                        "footer" ;
+
+}
+#hijoHeader{
+    background-color: lightgreen;
+}
+#hijoPortada{
+    background-color: lightgreen;
+}
+#hijoPrincipal{
+    background-color: lightblue;
+}
+#hijoFooter{
+    background-color: lightgray;
+}
